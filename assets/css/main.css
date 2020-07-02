@@ -858,6 +858,20 @@ footer h1{
 
         	#flexgrid a{
         		text-decoration: none;
+			}
+			
+			#courses h1{
+        		padding:0 0 3rem 0;
+        		text-align: center;
+        		color: #000;
+        		background-color: #f2f2f2;
+        	}
+
+        	@media (max-width: 450px){
+        		#courses h1{
+        		padding:0 0 1rem 0;
+        		font-size: 20px;
+        	}
         	}
         	
         	#events h1{
