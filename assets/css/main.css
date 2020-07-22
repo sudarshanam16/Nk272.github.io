@@ -850,6 +850,24 @@ footer h1{
 
 /*All section header*/
 
+  .contact-section{
+	background: #313840;
+	padding: 10px 0;
+	text-align: center;
+  }
+  
+  .inner-width{
+	
+	margin: auto;
+	padding: 0 20px;
+  }
+  .email2{
+	border-radius: 80%;
+  }
+  .email{
+	margin: 0px 7px 0px 9px;
+  }
+  
 .main{
         		background-image: url(../../images/bgm.jpg);
         		background-size: cover;
