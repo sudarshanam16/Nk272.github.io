@@ -11,7 +11,59 @@
 
 		<link rel="stylesheet" href="assets/css/main.css"/>
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-    <a href="index.html"> Back to home</a>
+    <!--<a href="index.html"> Back to home</a>-->
+
+    <style>
+      .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        box-shadow: -5px 5px 10px 0 grey;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+      }
+      
+      div + button {margin-top: 10px;}
+      
+      .active, .accordion:hover {
+        background-color: #ccc; 
+      }
+      
+      .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+      }
+      
+      .container{ margin-left: 10px; width: 100%;}
+      .faq{width: 100%; }
+      /*.topics{background-color: #444;
+          width: 20%;
+          box-shadow: -5px 5px 10px 0 green;
+          padding: 50px;
+          position:-webkit-sticky;
+          position:sticky;
+          -ms-flex-item-align:start;
+          align-self:flex-start;
+          -ms-flex-negative:0;
+          flex-shrink:0;
+          top:20px;
+          font-size: large;}
+      
+      div + div{margin-top: 10px;}
+      div.topics + div.faq{ margin-left: 10px; margin-top: 0;}
+      
+      a{color: white; text-decoration: none;}*/
+      
+      h3{color: grey;font-family: sans-serif;}
+      
+      </style>
 	</head>
 	<body>
 
@@ -22,6 +74,14 @@
     <section id="two" class="wrapper style3">
       <div class="inner">
         <div id="flexgrid">
+
+          <div>
+            <header>
+              <h3><a href="index.html">Home</a></h3>
+            </header>
+            <!-- <p>Guest lectures for the general public regarding the awareness of the topics prevelant at ancient times. </p> -->
+          </div>
+
           <div>
             <header>
               <h3><a href="events.html">Current and Past Events</a></h3>
@@ -30,7 +90,7 @@
           
           <div>
             <header>
-              <h3><a href="subhashitam.html">Subhashitam Samskrutam</a></h3>
+              <h3>Subhashitam Samskrutam</h3>
             </header>
             <!-- <p>Guest lectures for the general public regarding the awareness of the topics prevelant at ancient times. </p> -->
           </div>
@@ -74,7 +134,7 @@
     </section>
     
     <section class='container'>
-      <h1>FAQ</h1>
+      <h1><p align='center'>FAQ</p></h1>
       <div class='faq'>
         <h3 id='basic1'>BASIC</h3>
         <button class="accordion">When will course 2 start?</button>

@@ -634,6 +634,7 @@
 			border-left-width: 1px;
 			border-top-width: 1px;
 			text-align: center;
+			width: 20%;
 		}
 
 			#flexgrid > div > :last-child {
