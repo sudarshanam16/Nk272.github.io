@@ -61,7 +61,7 @@
       
       a{color: white; text-decoration: none;}*/
       
-      h3{color: grey;font-family: sans-serif;}
+      section.container1 > div > h3{color: grey;font-family: sans-serif;}
       
       </style>
 	</head>
@@ -177,17 +177,17 @@
 			
 
 		<section id="one" class="wrapper style2">
-      <h1>Comments</h1>
       <div class="inner">
-        <form>
-          <label for="name">Name:</label>
+        <h1>Comments</h1>
+        <h5>&nbsp;&nbsp;नमो नमः<br>
+          We would be glad to receive your comments and suggestions.</h5>
+        <form style="margin-left: 2rem;">
+          <h4><label for="name">Name:</label></h4>
+          <textarea type="text" id="name" name="name" placeholder="Your Name....." style="width: 20rem;"></textarea>
             </br>
-          <textarea type="text" id="name" name="name" placeholder="Your Name....."></textarea>
             </br>
-            </br>
-          <label for="subject">Message:</label>
-            </br>
-          <textarea type="text" name="subject" placeholder="Your Message ........." style="height: 200px"></textarea>
+          <h4><label for="subject">Message:</label></h4>
+          <textarea type="text" name="subject" placeholder="Your Message ........." style="width: 20rem;height: 200px"></textarea>
             </br>
           <input type="submit" value="Submit">
         </form>
