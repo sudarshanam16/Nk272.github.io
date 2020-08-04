@@ -28,7 +28,7 @@
         transition: 0.4s;
       }
       
-      div + button {margin-top: 10px;}
+      div + button, div + h3 {margin-top: 10px;}
       
       .active, .accordion:hover {
         background-color: #ccc; 
@@ -41,7 +41,7 @@
         overflow: hidden;
       }
       
-      .container1{ margin-left: 10px; width: 100%;}
+      .container1{ margin-left: 2rem; width: 90%; margin-bottom: 2rem;}
       .faq{width: 100%; }
       /*.topics{background-color: #444;
           width: 20%;
@@ -172,29 +172,27 @@
             <p>
                 Lorem ipsum...<br>
             </p>
-        </div>
-</div>
+      </div>
     </section>
 			
 
-		<section class='container'>
+		<section id="one" class="wrapper style2">
       <h1>Comments</h1>
-    <div class="container">
-      <form>
-      <label for="name">Name:</label>
-      </br>
-      <textarea type="text" id="name" name="name" placeholder="Your Name....."></textarea>
-      </br>
-      </br>
-      <label for="subject">Message:</label>
-      </br>
-      <textarea type="text" name="subject" placeholder="Your Message ........." style="height: 200px"></textarea>
-      </br>
-      <input type="submit" value="Submit">
+      <div class="inner">
+        <form>
+          <label for="name">Name:</label>
+            </br>
+          <textarea type="text" id="name" name="name" placeholder="Your Name....."></textarea>
+            </br>
+            </br>
+          <label for="subject">Message:</label>
+            </br>
+          <textarea type="text" name="subject" placeholder="Your Message ........." style="height: 200px"></textarea>
+            </br>
+          <input type="submit" value="Submit">
+        </form>
       </div>
-      </form>
-  </div>
-</section>
+    </section>
     
 
 
