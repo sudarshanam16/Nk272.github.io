@@ -440,7 +440,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6rem 0 4rem 0 ;
+		padding: 1rem 0 1rem 0 ;
 		position: relative;
 		margin: 0;
 	}
@@ -474,9 +474,10 @@
 			background-color: #000;
 			color: #bfbfbf;
 			background-image: url(../../images/bg.jpeg);
+			background-position: bottom;
 			background-size: cover;
 			background-attachment: fixed;
-			background-position: center top;
+			
 			position: relative;
 		}
 
@@ -575,7 +576,7 @@
 
 	#flexgrid {
 		width: 100%;
-		margin: 0 0 2.5rem 0;
+		margin: 0 0 0rem 0;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -872,7 +873,7 @@ footer h1{
 .main{
         		background-image: url(../../images/bgm.jpg);
         		background-size: cover;
-            height: 40vh;
+            height: 22vh;
         	}
 
         	#flexgrid a{
