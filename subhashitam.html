@@ -13,62 +13,6 @@
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
     <a href="index.html"> Back to home</a>
 
-    <style>
-      .accordion {
-        background-color: #eee;
-        color: #444;
-        cursor: pointer;
-        padding: 18px;
-        box-shadow: -5px 5px 10px 0 rgba(128, 128, 128, 0.6);
-        width: 100%;
-        border: none;
-        text-align: left;
-        outline: none;
-        font-size: 15px;
-        transition: 0.4s;
-      }
-      
-      div + button, div + h3 {margin-top: 10px;}
-      
-      .active, .accordion:hover {
-        background-color: #ccc; 
-      }
-      
-      .panel {
-        padding: 0 18px;
-        margin-top: 10px;
-        display: none;
-        background-color: white;
-        overflow: hidden;
-      }
-      
-      .container1{ 
-        margin-left: auto;
-        margin-right: auto;
-        width: 78%;
-        margin-bottom: 2rem;}
-      .faq{width: 100%; }
-      /*.topics{background-color: #444;
-          width: 20%;
-          box-shadow: -5px 5px 10px 0 green;
-          padding: 50px;
-          position:-webkit-sticky;
-          position:sticky;
-          -ms-flex-item-align:start;
-          align-self:flex-start;
-          -ms-flex-negative:0;
-          flex-shrink:0;
-          top:20px;
-          font-size: large;}
-      
-      div + div{margin-top: 10px;}
-      div.topics + div.faq{ margin-left: 10px; margin-top: 0;}
-      
-      a{color: white; text-decoration: none;}*/
-      
-      section.container1 > div > h3{color: grey;font-family: sans-serif;}
-      
-      </style>
 	</head>
 	<body>
 
@@ -102,7 +46,6 @@
             <header>
               <h3><a href="learn.html">Learning Sanskrit</a></h3>
             </header>
-            <!-- <p>Guest lectures for the general public regarding the awareness of the topics prevelant at ancient times. </p> -->
           </div>
 
 
@@ -110,7 +53,6 @@
             <header>
               <h3><a href="shaastra.html">Shaastra<br>Setu</a></h3>
             </header>
-            <!-- <p>Guest lectures for the general public regarding the awareness of the topics prevelant at ancient times. </p> -->
           </div>
 
         </div>
@@ -136,63 +78,6 @@
       </div>
     </section>
     
-    <section class='container1' id ="FAQs">
-      <h1><p align ='center'>FAQ</p></h1>
-      <div class='faq'>
-
-        <button class="accordion">When will Course-2 start?</button>
-        <div class="panel">
-            <p>Course 2 has already begun from August 3 (on the occasion of Sanskrit Divas).</p>
-        </div>
-
-        <button class="accordion">Can I join a course now?</button>
-        <div class="panel">
-            <p>You can access Course-1 material <a href="./Daily_Study_Material.pdf" target="_blank">here</a>
-              , which includes YouTube lectures along with quizzes.
-              You won't be able to receive a certificate, as the registration for Course-1 has been closed.<br>
-              Course-1 exam was mandatory for joining course-2. 
-              However, we are uploading lectures and practice videos 
-              on our <a href="https://www.youtube.com/channel/UCUSJtvBOvimvpkzVP4NGmsw" target="_blank">YouTube</a>
-              channel, which you are free to access at your convinience.<br>
-              Right now, Course-2 is in progress. We will inform you when subsequent courses will start.
-              </p>
-        </div>
-
-        <button class="accordion">I took the Course-1 exam but am not receiving mails for Course-2. What shall I do?</button>
-        <div class="panel">
-            <p>Please send us an email to sanskritclub@iitr.ac.in with a subject line - 
-              "Not Receiving Course-2 Emails" and send your email id that you used during the Course-1 exam.</p>
-        </div>
-
-        <button class="accordion">Can I see the marks of Course-1 exam?</button>
-        <div class="panel">
-            <p>Participants know their marks of Part-1 that were awarded out of 80. In the certificate, only the Shreni (class) will be mentioned.</p>
-        </div>
-
-        <button class="accordion">I don't use Telegram or WebEx apps, am I eligible to appear for exams?</button>
-        <div class="panel">
-            <p>Please send us an email to sanskritclub@iitr.ac.in with a subject line - 
-              "Exam issue: No Webex", we will see what can be done.</p>
-        </div>
-
-        <button class="accordion">Others </button>
-        <div class="panel">
-            <p>If you have queries other than the ones mentioned here, please have a look at <a href="https://drive.google.com/file/d/1sAriHyQd0UF1Uo0Ghgg1KKKaz6YkJW6O/view?usp=sharing" target="_blank">this.</a>
-            <br>If you still aren't satisfied, you are welcome to ask your queries in the <a href="./subhashitam.html#comments" target="_blank">comments</a> section.</p>
-      </div>
-    </section>
-			
-
-		<section id="one" class="wrapper style2" >
-      <div class="inner" id="comments">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfket64_5h_Cs9ymi4cvHUaa2OsHKAqKLBgs3dsf7D_-5jtVA/viewform?embedded=true"
-        width="640" height="1050" frameborder="0" marginheight="0" marginwidth="0"
-        style="margin: 0 auto; display: block;">Loading…</iframe>
-      </div>
-    </section>
-    
-
-
 
 
 		<!-- Footer -->
@@ -223,27 +108,6 @@
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/bootstrap.min.js"></script>
-      <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-
-        for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-    /* Toggle between adding and removing the "active" class,
-    to highlight the button that controls the panel */
-        this.classList.toggle("active");
-
-    /* Toggle between hiding and showing the active panel */
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-            }
-        else {
-            panel.style.display = "block";
-            }
-            });
-        }
-    </script>
 
 	</body>
 </html>
