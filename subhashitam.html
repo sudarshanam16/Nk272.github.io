@@ -18,7 +18,47 @@
 			li{color: black;}
 			li a{color: blue !important;}
 
-		</style>
+      .accordion {
+              background-color: #eee;
+              color: #444;
+              cursor: pointer;
+              padding: 18px;
+              box-shadow: -5px 5px 10px 0 rgba(128, 128, 128, 0.6);
+              width: 100%;
+              border: none;
+              text-align: left;
+              outline: none;
+              font-size: 15px;
+              transition: 0.4s;
+            }
+            
+      div + button, div + h3 {margin-top: 10px;}
+            
+      .active, .accordion:hover {
+              background-color: #ccc; 
+            }
+            
+      .panel {
+              padding: 0 18px;
+              margin-top: 10px;
+              display: none;
+              background-color: white;
+              overflow: hidden;
+            }
+            
+      .container1{ 
+              margin-left: auto;
+              margin-right: auto;
+              width: 90%;
+              margin-bottom: 2rem;
+              display: flex;}
+      .faq{width: 100%;}
+            
+      div + h3{margin-top: 20px;}
+            
+      section.container1 > div > h3{color: grey;font-family: sans-serif;}
+      
+            </style>
 
 	</head>
 	<body>
@@ -89,7 +129,7 @@
       </div>
     </section>
 
-    <marquee><a href="./Feedback.html#susa" target="_blank">If you have any questions regarding Subhashitam Sanskritam courses, please have a look at our FAQs</a>.</marquee>
+    <marquee><a href="#susa">If you have any questions regarding Subhashitam Sanskritam courses, please have a look at our FAQs</a>.</marquee>
     
     <!-- Two -->
     <section id="one" class="wrapper style2">
@@ -115,7 +155,56 @@
       </div>
     </section>
 
+    <br>
+    <h1><p align ='center'>FAQ</p></h1>
+    <section class='container1' id ="FAQs">
 
+        <div class='faq'>
+  
+    <h3 id="susa">Subhashitam Samskritam</h3>
+          <button class="accordion">When will Course-2 start?</button>
+          <div class="panel">
+              <p>Course-2 has already begun from August 3 (on the occasion of Sanskrit Divas).</p>
+          </div>
+  
+          <button class="accordion">Can I join a course now?</button>
+          <div class="panel">
+              <p>You can access Course-1 material <a href="./Daily_Study_Material.pdf" target="_blank">here</a>
+                , which includes YouTube lectures along with quizzes.
+                You won't be able to receive a certificate, as the registration for Course-1 has been closed.<br>
+                Course-1 exam was mandatory for joining course-2. 
+                However, we are uploading lectures and practice videos 
+                on our <a href="https://www.youtube.com/channel/UCUSJtvBOvimvpkzVP4NGmsw" target="_blank">YouTube
+                channel</a>, which you are free to access at your convinience.<br>
+                Right now, Course-2 is in progress. We will inform you when subsequent courses will start.
+                </p>
+          </div>
+  
+          <button class="accordion">I took the Course-1 exam but am not receiving mails for Course-2. What shall I do?</button>
+          <div class="panel">
+              <p>Please send us an email to sanskritclub@iitr.ac.in with a subject line - 
+                "Not Receiving Course-2 Emails" and send your email id that you used during the Course-1 exam.</p>
+          </div>
+  
+          <button class="accordion">Can I see the marks of Course-1 exam?</button>
+          <div class="panel">
+              <p>Participants know their marks of Part-1 that were awarded out of 80. In the certificate, only the Shreni (class) will be mentioned.</p>
+          </div>
+  
+          <button class="accordion">I don't use Telegram or WebEx apps, am I eligible to appear for exams?</button>
+          <div class="panel">
+              <p>Please send us an email to sanskritclub@iitr.ac.in with a subject line - 
+                "Exam issue: No Webex", we will see what can be done.</p>
+          </div>
+
+          <button class="accordion">Others</button>
+          <div class="panel">
+              <p>If you have queries other than the ones mentioned here, please have a look at <a href="https://drive.google.com/file/d/1sAriHyQd0UF1Uo0Ghgg1KKKaz6YkJW6O/view?usp=sharing" target="_blank">this</a>.
+              <br>If you still aren't satisfied, you are welcome to ask your queries in the <a href="./subhashitam.html#comments" target="_blank">comments</a> section.</p>
+          </div>
+
+        </div>
+      </section>
 
 		<!-- Footer -->
 			<footer id="footer" class="wrapper">
@@ -145,6 +234,28 @@
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/bootstrap.min.js"></script>
+
+      <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+            }
+        else {
+            panel.style.display = "block";
+            }
+            });
+        }
+    </script>
 
 	</body>
 </html>
