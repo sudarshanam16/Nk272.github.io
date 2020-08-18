@@ -4,4 +4,11 @@
 4.	Past events (guest lectures and workshops) video files and photos + text
 5.	Photos of team members
 6.	Website visitors Count
-7.	Create new page for subhashitas filled with fun, wit, and lessons for life – add a section to learning only. 
+7.	Create new page for subhashitas filled with fun, wit, and lessons for life – add a section to learning only.
+8.	Better Organisation of files 
+9.`	Feedback Page - index part remove, only general section 
+10.	FAq- about us (Link in footer rename to (about us, Comments))
+11.	Subhasitam - better images 
+12.	course 1 material - more presentable form 
+13.	Learning Sanskrit and events Page - Design Blueprint
+14.	Main page - remove feedback buttton
