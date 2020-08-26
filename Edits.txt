@@ -1,4 +1,3 @@
-1.	Remove feedback button – just 2 links attached to a page in footer – comments and help
 2.	Add all relevant content in SuSa --> has to be much better, related content one place
 3.	Media coverage section in main page
 4.	Past events (guest lectures and workshops) video files and photos + text
@@ -6,9 +5,7 @@
 6.	Website visitors Count
 7.	Create new page for subhashitas filled with fun, wit, and lessons for life – add a section to learning only.
 8.	Better Organisation of files 
-9.`	Feedback Page - index part remove, only general section 
-10.	FAq- about us (Link in footer rename to (about us, Comments))
 11.	Subhasitam - better images 
 12.	course 1 material - more presentable form 
 13.	Learning Sanskrit and events Page - Design Blueprint
-14.	Main page - remove feedback buttton
+14.	Page bottom most margin
