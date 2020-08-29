@@ -107,7 +107,7 @@
 		@media screen and (max-width: 980px) {
 
 			html {
-				font-size: 12pt;
+				font-size: 9pt;
 			}
 
 		}
@@ -115,7 +115,7 @@
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 12pt;
+				font-size: 9pt;
 			}
 
 		}
@@ -123,7 +123,7 @@
 		@media screen and (max-width: 480px) {
 
 			html {
-				font-size: 12pt;
+				font-size: 9pt;
 			}
 
 		}
@@ -417,7 +417,7 @@
 
 	header h2 + p {
 		font-size: 1.25rem;
-		margin-top: -1rem;
+		
 	}
 
 	header h3 + p {
@@ -478,7 +478,7 @@
 			background-size: cover;
 			background-attachment: fixed;
 			
-			position: relative;
+			position: relative;	
 		}
 
 
@@ -821,7 +821,7 @@ footer h1{
 .main{
         		background-image: url(../../images/bgm.jpg);
         		background-size: cover;
-            height: 22vh;
+            height: 10vw;
         	}
 
         	#flexgrid a{
