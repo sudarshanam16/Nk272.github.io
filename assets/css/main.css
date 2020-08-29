@@ -115,7 +115,7 @@
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 9pt;
+				font-size: 8pt;
 			}
 
 		}
@@ -123,7 +123,7 @@
 		@media screen and (max-width: 480px) {
 
 			html {
-				font-size: 9pt;
+				font-size: 7pt;
 			}
 
 		}
@@ -559,12 +559,10 @@
 		#footer .copyright {
 			color: #bbb;
 			font-size: 0.9rem;
-			margin: 0 0 2rem 0;
-			padding: 0;
 			text-align: center;
 		}
 	#footer > div > *{color: white;}
-	#footer > div > div > h1{font-size: 4vw; color: white;}
+	#footer > div > div > h1{color: white;}
 
 		@media screen and (max-width: 736px) {
 
@@ -776,7 +774,7 @@
 
 footer h1{
 	 text-align: center;
-	 font-size: 6em;
+	 font-size: 3em;
 	 font-family:Times New Roman;
 }
 
