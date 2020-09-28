@@ -585,11 +585,14 @@
 	}
 
 		#flexgrid > div {
-			border-style: solid;
-			border-color: rgba(255, 255, 255, 0.25);
 			text-align: center;
 			width: fit-content;
-			padding: 0 3vw 0 3vw;
+			padding: 1vw 3vw 1vw 3vw;
+		}
+		#flexgrid + #flexgrid{
+			border-style: solid;
+			border-color: rgba(255, 255, 255, 0.25);
+			border-top-width: 1px;
 		}
 			#flexgrid > div > header{
 				display: flex;
@@ -598,6 +601,8 @@
 				height: 100%;
 			}
 			#flexgrid > div+div {
+				border-style: solid;
+				border-color: rgba(255, 255, 255, 0.25);
 				border-left-width: 1px;
 			}
 
