@@ -57,6 +57,15 @@
       div + h3{margin-top: 20px;}
             
       section.container1 > div > h3{color: grey;font-family: sans-serif;}
+
+      
+      button i{transform: rotate(45deg);-webkit-transform: rotate(45deg); border: solid #444;;
+            border-width: 0 0.1em 0.1em 0;
+            display: inline-block;
+            margin: 0 0 0 3em;
+            padding: 1vw;
+            transition: transform 500ms ease-in-out, margin 500ms ease-in-out;
+          }
       
             </style>
 
@@ -172,12 +181,12 @@
         <div class='faq'>
   
     <!--<h3 id="susa">Subhashitam Samskritam</h3>-->
-          <button class="accordion">When will Course-2 start?</button>
+          <button class="accordion">When will Course-2 start? <i></i></button>
           <div class="panel">
               <p>Course-2 has already begun from August 3 (on the occasion of Sanskrit Divas).</p>
           </div>
   
-          <button class="accordion">Can I join a course now?</button>
+          <button class="accordion">Can I join a course now? <i></i></button>
           <div class="panel">
               <p>You can access Course-1 material <a href="material/Daily_Study_Material.pdf" target="_blank">here</a>
                 , which includes YouTube lectures along with quizzes.
@@ -190,24 +199,24 @@
                 </p>
           </div>
   
-          <button class="accordion">I took the Course-1 exam but am not receiving mails for Course-2. What shall I do?</button>
+          <button class="accordion">I took the Course-1 exam but am not receiving mails for Course-2. What shall I do? <i></i></button>
           <div class="panel">
               <p>Please send us an email to sanskritclub@iitr.ac.in with a subject line - 
                 "Not Receiving Course-2 Emails" and send your email id that you used during the Course-1 exam.</p>
           </div>
   
-          <button class="accordion">Can I see the marks of Course-1 exam?</button>
+          <button class="accordion">Can I see the marks of Course-1 exam? <i></i></button>
           <div class="panel">
               <p>Participants know their marks of Part-1 that were awarded out of 80. In the certificate, only the Shreni (class) will be mentioned.</p>
           </div>
   
-          <button class="accordion">I don't use Telegram or WebEx apps, am I eligible to appear for exams?</button>
+          <button class="accordion">I don't use Telegram or WebEx apps, am I eligible to appear for exams? <i></i></button>
           <div class="panel">
               <p>Please send us an email to sanskritclub@iitr.ac.in with a subject line - 
                 "Exam issue: No Webex", we will see what can be done.</p>
           </div>
 
-          <button class="accordion">Others</button>
+          <button class="accordion">Others <i></i></button>
           <div class="panel">
               <p>If you have queries other than the ones mentioned here, please have a look at <a href="https://drive.google.com/file/d/1sAriHyQd0UF1Uo0Ghgg1KKKaz6YkJW6O/view?usp=sharing" target="_blank">this</a>.
               <br>If you still aren't satisfied, you are welcome to ask your queries in the <a href="./subhashitam.html#comments" target="_blank">comments</a> section.</p>
@@ -259,11 +268,16 @@
 
     /* Toggle between hiding and showing the active panel */
         var panel = this.nextElementSibling;
+        var arrow = this.lastChild;
         if (panel.style.display === "block") {
             panel.style.display = "none";
+            arrow.style.transform = 'rotate(45deg)';
+            arrow.style.margin = '0 0 0 3em';
             }
         else {
             panel.style.display = "block";
+            arrow.style.transform = 'rotate(-135deg)';
+            arrow.style.margin = '1vw 0 0 3em';
             }
             });
         }
