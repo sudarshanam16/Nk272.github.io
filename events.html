@@ -169,8 +169,48 @@
                 <p>
                   <li>First activity of a series of activities as a welcome for freshers of Year 2020-21.</li>
                   <li>Conducted between 3rd and 5th of December, 2020.</li>
-                  <li><a href="" target="_blank">These</a> participants made it to the next level!</li>
-              </p>
+                <li><a id="richa" style="cursor: pointer;">These</a> participants made it to the next level!</li>
+                </p>
+                  <div id="names" style="display: none;">
+                    <pre><p>            Atal Agrawal                Soumya Mishra
+            Ayush Kumar Pandey          Rishabh Keshulal Lodha
+            Sarthak Gupta               Chhavi Sood
+            Anet Maria P                Abhishek Tiwari
+            Nancy Lakra                 Eshu
+            Tanya Bharti                Rishav Kumar
+            Harsh Kumar                 Ayushi Raj
+            Rajat Jaiswal               Sneha Sundararajan
+            Abhishek Bansal             Vidhi Patidar
+            Arpit Mangal                Arjun Angirishi
+            Harshit Agarwal             Kartik Gupta
+            Fahim Akhtar                Ujjwal Kumar
+            Abhinav Agarwal             Apoorv Gupta
+            Deepak Sarang               Sunidhi
+            Nikhil Jain                 Rishi Sharma
+            Ananya Choudhary            Anmol Khemuka
+            Shilpesh Soni 
+            Ambilkar Ayushi Raju
+            Kashish Agrawal
+            Devesh yadav
+            Pavan Rao</p></pre>
+                  </div>
+                  <script>var richa = document.getElementById('richa')
+                  richa.addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+        var panel = document.getElementById('names')
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+            }
+        else {
+            panel.style.display = "block";
+            }
+            });
+                  </script>
+              
                 </div>
               </div>
             </div>
