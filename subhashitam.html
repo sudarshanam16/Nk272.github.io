@@ -61,10 +61,11 @@
       button i{transform: rotate(45deg);-webkit-transform: rotate(45deg); border: solid #444;;
             border-width: 0 0.1em 0.1em 0;
             display: inline-block;
-            margin: 0 0 0 3em;
+            /*margin: 0 0 0 3em;*/
             padding: 1vw;
+            float: right;
             position: relative;
-            right: 0px;
+            right: 5%;
             transition: transform 500ms ease-in-out, margin 500ms ease-in-out;
           }
       
@@ -341,12 +342,12 @@
         if (panel.style.display === "block") {
             panel.style.display = "none";
             arrow.style.transform = 'rotate(45deg)';
-            arrow.style.margin = '0 0 0 3em';
+            
             }
         else {
             panel.style.display = "block";
             arrow.style.transform = 'rotate(-135deg)';
-            arrow.style.margin = '1vw 0 0 3em';
+            
             }
             });
         }
