@@ -473,7 +473,7 @@
 		.wrapper.style3 {
 			background-color: #000;
 			color: #bfbfbf;
-			background-image: url(../../images/bg.jpeg);
+			background-image: url(https://dl.dropbox.com/s/gz96744xfcfy54o/bg.jpeg?dl=0);
 			background-position: bottom;
 			background-size: cover;
 			background-attachment: fixed;
@@ -830,7 +830,7 @@ footer h1{
   }
   
 .main{
-        		background-image: url(../../images/bgm.jpg);
+        		background-image: url(https://dl.dropbox.com/s/ra8uwhdf916fqkm/bgm.jpg?dl=0);
         		background-size: cover;
             height: 10vw;
         	}
