@@ -98,13 +98,13 @@
             <!-- The slideshow -->
             <div class="carousel-inner" style="text-align: center;">
                 <div class="carousel-item active">
-                    <img src="./images/Event 1.jpg" alt="" width="75%">
+                    <img src="https://dl.dropbox.com/s/3djaj9bndh7ykky/Event%201.jpg?dl=0" alt="" width="75%">
                 </div>
                 <div class="carousel-item">
-                    <img src="./images/Event 2.jpg" alt="" width="75%">
+                    <img src="https://dl.dropbox.com/s/kpeojbmualmp9b9/Event%202.jpg?dl=0" alt="" width="75%">
                 </div>
                 <div class="carousel-item">
-                    <img src="./images/Event 3.jpg" alt="" width="75%">
+                    <img src="https://dl.dropbox.com/s/8mw59k4bg1s0bc2/Event%203.jpg?dl=0" alt="" width="75%">
                 </div>
             </div>
 
@@ -141,10 +141,10 @@
                     <img src="https://dl.dropbox.com/s/yvkffvsotxyh5fz/act_1.jpg?dl=0" alt="" width="75%">
                 </div>
                 <div class="carousel-item">
-                    <img src="./images/act_2.jpg" alt="" width="75%">
+                    <img src="https://dl.dropbox.com/s/n9a1dfifd9yq6j0/act_2.jpg?dl=0" alt="" width="75%">
                 </div>
                 <div class="carousel-item">
-                    <img src="./images/act_3.jpg" alt="" width="75%">
+                    <img src="https://dl.dropbox.com/s/q8i8ad0bbakbghh/act_3.jpg?dl=0" alt="" width="75%">
                 </div>
             </div>
 
@@ -168,7 +168,7 @@
                             <h4>RiCha - Riddle Chain</h4><br>
                         </header>
                         <div class="image fit">
-                            <img src="./images/richa.jpeg">
+                            <img src="https://dl.dropbox.com/s/wlq5fqddrwuz64s/richa.jpeg?dl=0">
                         </div>
 
                         <p>
@@ -176,7 +176,7 @@
                             <li>Conducted between 3rd and 5th of December, 2020.</li>
                             <li><a id="richaq" style="cursor: pointer;">These</a> participants made it to the next level!</li>
                         </p>
-                        <div id="names" style="display: none;">
+                        <div id="namesq" style="display: none;">
                             <pre><p>            Atal Agrawal                Soumya Mishra
             Ayush Kumar Pandey          Rishabh Keshulal Lodha
             Sarthak Gupta               Chhavi Sood
@@ -196,7 +196,7 @@
             Shilpesh Soni 
             Ambilkar Ayushi Raju
             Kashish Agrawal
-            Devesh yadav
+            Devesh Yadav
             Pavan Rao</p></pre>
                         </div>
                         <script>
@@ -207,7 +207,7 @@
                                 this.classList.toggle("active");
 
                                 /* Toggle between hiding and showing the active panel */
-                                var panel = document.getElementById('names')
+                                var panel = document.getElementById('namesq')
                                 if (panel.style.display === "block") {
                                     panel.style.display = "none";
                                 } else {
@@ -231,15 +231,35 @@
                             <h4>Trayah - Thrice the Suprise! </h4><br>
                         </header>
                         <div class="image fit">
-                            <img src="./images/trayah.jpeg">
+                            <img src="https://dl.dropbox.com/s/d42pwpb3h4hweky/trayah.jpeg?dl=0">
                         </div>
 
                         <p>
                             <li>Second activity of a series of activities planned after freshers of 2020-21 joined in Nov-end</li>
-                            <li>This event was conducted live on <a href="https://www.youtube.com/watch?v=biKwicJt8XY">YouTube</a>.</li>
-                            <li>Conducted on 13th December, 2020.</li>
-
+                            <li>This event was conducted live on <a href="https://www.youtube.com/watch?v=biKwicJt8XY">YouTube</a> on 13th December, 2020.</li>
+                            <li><a id="richaw" style="cursor: pointer;">Here</a> are the winners of the RiCha Tiebreaker event!!</li>
                         </p>
+                        <div id="namesw" style="display: none;">
+                            <pre><p>            1st Tanya Bharti
+            2nd Atal Agrawal
+            3rd Devesh Yadav</p></pre>
+            </div>
+            <script>
+                var richa = document.getElementById('richaw')
+                richa.addEventListener("click", function() {
+                    /* Toggle between adding and removing the "active" class,
+                    to highlight the button that controls the panel */
+                    this.classList.toggle("active");
+
+                    /* Toggle between hiding and showing the active panel */
+                    var panel = document.getElementById('namesw')
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            </script>
                     </div>
                 </div>
             </div>
