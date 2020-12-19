@@ -15,7 +15,14 @@
 
     <style>
         li {
-            color: black;
+            color: rgb(0, 0, 0);
+            display: list-item;
+            list-style-type: disc;
+        }
+        
+        li ul li {
+            list-style-type: circle;
+            margin-left: 2vw;
         }
         
         li a {
@@ -98,44 +105,94 @@
                             <h4>For the TARGET संस्कृतम् Hackathon and general resources</h4><br>
                         </header>
                         <p>
-                            
-                            <li><a href="https://spokensanskrit.org/" target="_blank">Spoken Sanskrit Dictionary</a></li>
-                            <li><a href="https://sanskrit.inria.fr/DICO/grammar.html" target="_blank">Sanskrit Grammarian</a></li>
-                            <li><a href="https://www.sanskrit-trikashaivism.com/sanstoolkit1.php" target="_blnak">Vowel Sandhi Exercise tool</a></li>
-                            <li><a href="https://kosha.sanskrit.today/" target="_blank">Sanskrit Dictionary Search Engine</a></li>
-			    <li><a href="https://youtu.be/bTpNCd93If8" target="_blank">To teach kids Sanskrit</a></li>
-			    <li><a href="https://www.youtube.com/watch?v=T7R6MeJJBwE" target="_blank">Kid chanting Ganpati shloka</a></li>
-			    <li><a href="https://www.sanskritmaitri.com/" target="_blank">Gamify, joyous sanskrit teaching slow learners</a></li>
-			    <li><a href="https://www.masteranylanguage.com/c/r/o/Sanskrit/Games" target="_blank">Games for/in Sanskrit</a></li>
-		            <li><a href="https://www.dailyo.in/variety/sanskrit-english-vocabulary-translation-sanskrit-non-translatables/story/1/33901.html/" target="_blank">Sanskrit Non-Translatables.</a></li>
-			    <li><a href="http://www.quizlet.com" target="_blank">Quizlet</a></li>
-			    <li><a href="https://www.html5rocks.com/en/tutorials/getusermedia/intro/" target="_blank">Self-pronunciation-tutor/checker for Samskritam</a></li>
-                            <li><a href="https://github.com/jaksz/tameez" target="_blank">Github link for above tutor</a></li>	
-			    <li><a href="https://sa.wikiquote.org/wiki/%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%83:%E0%A4%97%E0%A5%80%E0%A4%A4%E0%A4%BE%E0%A4%A8%E0%A4%BF" target="_blank">वर्गः गीतानि</a></li>
-			    <li><a href="https://sa.wikipedia.org/wiki/" target="_blank">Sanskrit wiki</a></li>
-			    <li><a href="https://en.wikipedia.org/wiki/Lorem_ipsum" target="_blank">Lorem Ipsum</a></li>
-			    <li><a href="https://www.planetread.org/lyrics" target="_blank">SongsSubtitle in many languages</a></li>
-			    <li><a href="https://www.youtube.com/playlist?list=PLxx0m3vtiqMZGmsUEVeTAuWIXqc9fTMHy" target="_blank">Vaartawali</a></li>
-			    <li><a href="http://123kakha.ga/1008/" target="_blank">word in mother tongue that is close to Samskritam root</a></li>
-			    <li><a href="https://www.autodraw.com/" target="_blank">Autodraw</a></li>
-			    <li><a href="https://www.123greetings.com/" target="_blank">GreetCard sample eg</a></li>	
-			    <li><a href="https://github.com/DistributedProofreaders/dproofreaders" target="_blank">DistributedProofReader Github</a></li>
-			    <li><a href="https://github.com/Distributed-Proofreaders/dpc" target="_blank">Dist.ProofReaderDPC Github</a></li>
-			    <li><a href="https://spokensanskrit.org/index.php?mode=14" target="_blank">Sanskrit Spoken Dictionary</a></li>
-			    <li><a href="https://developers.google.com/apps-script/guides/sheets/functions" target="_blank">Custom Functions in Google Sheets</a></li>
-			    <li><a href="https://github.com/sanskrit/sanscript.js" target="_blank">Sanscript Github</a></li>
-			    <li><a href="https://forvo.com/languages/sa/" target="_blank">Sanskrit Pronounciation Dictionary</a></li>	
-			    <li><a href="https://kpachar.github.io/vishnu/find.html" target="_blank">Cross-word Generator</a></li>
-			    <li><a href="https://github.com/kpachar" target="_blank">Cross-word Generator Github</a></li>	
-			    <li><a href="https://kpachar.github.io/gita/words.html" target="_blank">Word Cloud</a></li>	
-				
-				
+                            <ul>
+                                <li style="display: inline;">Open the sections below to display the respective lists of links.</li>
+                                <li style="margin-left: 1vw;"><a id="link1" style="cursor: pointer;">For TARGET Samskritam Hackathon</a>
+                                    <div id="panel1" style="display: none;">
+                                        <ul>
+                                            <li><a href="https://spokensanskrit.org/" target="_blank">Spoken Sanskrit Dictionary</a></li>
+                                            <li><a href="https://sanskrit.inria.fr/DICO/grammar.html" target="_blank">Sanskrit Grammarian</a></li>
+                                            <li><a href="https://www.sanskrit-trikashaivism.com/sanstoolkit1.php" target="_blnak">Vowel Sandhi Exercise tool</a></li>
+                                            <li><a href="https://kosha.sanskrit.today/" target="_blank">Sanskrit Dictionary Search Engine</a></li>
+                                            <li><a href="https://youtu.be/bTpNCd93If8" target="_blank">To teach kids Sanskrit</a></li>
+                                            <li><a href="https://www.youtube.com/watch?v=T7R6MeJJBwE" target="_blank">Kid chanting Ganpati shloka</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li style="margin-left: 1vw;"><a id="link2" style="cursor: pointer;">English apps convertible to Sanskrit</a>
+                                    <div id="panel2" style="display: none;">
+                                        <ul>
+                                            <li><a href="https://www.sanskritmaitri.com/" target="_blank">Gamify, joyous sanskrit teaching slow learners</a></li>
+                                            <li><a href="https://www.masteranylanguage.com/c/r/o/Sanskrit/Games" target="_blank">Games for/in Sanskrit</a></li>
+                                            <li><a href="https://www.dailyo.in/variety/sanskrit-english-vocabulary-translation-sanskrit-non-translatables/story/1/33901.html/" target="_blank">Sanskrit Non-Translatables.</a></li>
+                                            <li><a href="http://www.quizlet.com" target="_blank">Quizlet</a></li>
+                                            <li><a href="https://www.html5rocks.com/en/tutorials/getusermedia/intro/" target="_blank">Self-pronunciation-tutor/checker for Samskritam</a></li>
+                                            <li><a href="https://github.com/jaksz/tameez" target="_blank">Github link for above tutor</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li style="margin-left: 1vw;"><a id="link3" style="cursor: pointer;">General Resources</a>
+                                    <div id="panel3" style="display: none;">
+                                        <ul>
+                                            <li><a href="https://sa.wikiquote.org/wiki/%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%83:%E0%A4%97%E0%A5%80%E0%A4%A4%E0%A4%BE%E0%A4%A8%E0%A4%BF" target="_blank">वर्गः गीतानि</a></li>
+                                            <li><a href="https://sa.wikipedia.org/wiki/" target="_blank">Sanskrit wiki</a></li>
+                                            <li><a href="https://en.wikipedia.org/wiki/Lorem_ipsum" target="_blank">Lorem Ipsum</a></li>
+                                            <li><a href="https://www.planetread.org/lyrics" target="_blank">SongsSubtitle in many languages</a></li>
+                                            <li><a href="https://www.youtube.com/playlist?list=PLxx0m3vtiqMZGmsUEVeTAuWIXqc9fTMHy" target="_blank">Vaartawali</a></li>
+                                            <li><a href="http://123kakha.ga/1008/" target="_blank">word in mother tongue that is close to Samskritam root</a></li>
+                                            <li><a href="https://www.autodraw.com/" target="_blank">Autodraw</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <script>
+        var links1 = document.getElementById('link1')
+        var links2 = document.getElementById('link2')
+        var links3 = document.getElementById('link3')
+        links1.addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+            /* Toggle between hiding and showing the active panel */
+            var panel = document.getElementById('panel1')
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+        links2.addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+            /* Toggle between hiding and showing the active panel */
+            var panel = document.getElementById('panel2')
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+        links3.addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+            /* Toggle between hiding and showing the active panel */
+            var panel = document.getElementById('panel3')
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    </script>
 
     <section id="courses" class="wrapper style2">
         <div class="inner">
