@@ -27,7 +27,7 @@
 
         @keyframes blinker {
             50% {
-                opacity: 0;
+                opacity: 30%;
             }
         }
     </style>
@@ -108,28 +108,28 @@
                             <li>Conducted between 3rd and 5th of December, 2020.</li>
                             <li><a id="richaq" style="cursor: pointer;">These</a> participants made it to the next level!</li>
                         </p>
-                        <div id="namesq" style="display: none;">
-                            <pre><p>            Atal Agrawal                Soumya Mishra
-            Ayush Kumar Pandey          Rishabh Keshulal Lodha
-            Sarthak Gupta               Chhavi Sood
-            Anet Maria P                Abhishek Tiwari
-            Nancy Lakra                 Eshu
-            Tanya Bharti                Rishav Kumar
-            Harsh Kumar                 Ayushi Raj
-            Rajat Jaiswal               Sneha Sundararajan
-            Abhishek Bansal             Vidhi Patidar
-            Arpit Mangal                Arjun Angirishi
-            Harshit Agarwal             Kartik Gupta
-            Fahim Akhtar                Ujjwal Kumar
-            Abhinav Agarwal             Apoorv Gupta
-            Deepak Sarang               Sunidhi
-            Nikhil Jain                 Rishi Sharma
-            Ananya Choudhary            Anmol Khemuka
-            Shilpesh Soni 
-            Ambilkar Ayushi Raju
-            Kashish Agrawal
-            Devesh Yadav
-            Pavan Rao</p></pre>
+                        <div>
+                            <pre><p id="namesq" style="display: none;">        Atal Agrawal                Soumya Mishra
+        Ayush Kumar Pandey          Rishabh Keshulal Lodha
+        Sarthak Gupta               Chhavi Sood
+        Anet Maria P                Abhishek Tiwari
+        Nancy Lakra                 Eshu
+        Tanya Bharti                Rishav Kumar
+        Harsh Kumar                 Ayushi Raj
+        Rajat Jaiswal               Sneha Sundararajan
+        Abhishek Bansal             Vidhi Patidar
+        Arpit Mangal                Arjun Angirishi
+        Harshit Agarwal             Kartik Gupta
+        Fahim Akhtar                Ujjwal Kumar
+        Abhinav Agarwal             Apoorv Gupta
+        Deepak Sarang               Sunidhi
+        Nikhil Jain                 Rishi Sharma
+        Ananya Choudhary            Anmol Khemuka
+        Shilpesh Soni 
+        Ambilkar Ayushi Raju
+        Kashish Agrawal
+        Devesh Yadav
+        Pavan Rao</p></pre>
                         </div>
                         <script>
                             var richa = document.getElementById('richaq')
@@ -169,29 +169,13 @@
                         <p>
                             <li>Second activity of a series of activities planned after freshers of 2020-21 joined in Nov-end</li>
                             <li>This event was conducted live on <a href="https://www.youtube.com/watch?v=biKwicJt8XY">YouTube</a> on 13th December, 2020.</li>
-                            <li><a id="richaw" style="cursor: pointer;">Here</a> are the winners of the RiCha Tiebreaker event!!</li>
+                            <li>Here are the winners of the RiCha Tiebreaker event!!</li>
                         </p>
-                        <div id="namesw" style="display: none;">
-                            <pre><p>            1st Tanya Bharti
-            2nd Atal Agrawal
-            3rd Devesh Yadav</p></pre>
+                        <div>
+                            <pre><p id="namesw">        1st Tanya Bharti
+        2nd Atal Agrawal
+        3rd Devesh Yadav</p></pre>
                         </div>
-                        <script>
-                            var richa = document.getElementById('richaw')
-                            richa.addEventListener("click", function() {
-                                /* Toggle between adding and removing the "active" class,
-                                to highlight the button that controls the panel */
-                                this.classList.toggle("active");
-
-                                /* Toggle between hiding and showing the active panel */
-                                var panel = document.getElementById('namesw')
-                                if (panel.style.display === "block") {
-                                    panel.style.display = "none";
-                                } else {
-                                    panel.style.display = "block";
-                                }
-                            });
-                        </script>
                     </div>
                 </div>
             </div>
