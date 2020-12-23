@@ -18,9 +18,9 @@
             background-color: #eee;
             color: #444;
             cursor: default;
+            width: 92%;
             padding: 1.1rem;
             box-shadow: -.3250rem .3250rem .625rem 0 grey;
-            width: 92%;
             border: none;
             text-align: center;
             outline: none;
@@ -36,14 +36,21 @@
             margin-left: auto;
             margin-right: auto;
         }
+        
         td {
             font-size: large;
             text-align: center;
         }
-
+        
         #blink_me {
             animation: blinker 1s linear infinite;
         }
+        
+        i {
+            font-style: normal;
+            animation: blinker 1s linear infinite;
+        }
+        
         @keyframes blinker {
             50% {
                 opacity: 0;
@@ -175,6 +182,19 @@
 
                     <table style="margin-left: auto;margin-right: auto; width: 100%;">
                         <tr>
+                            <td><a><button id="imp"><i >Important information for participants of Subhashitam Samskritam Courses.</i></button></a>
+                                <div style="display: none; width: 85%; margin: 1vw 0 0 5vw; text-align:left;">
+                                    <li>For those who emailed us within the deadline for not receiving Course-3 certificates, we will be rerunning the certificate process soon after validating.</li>
+                                    <li>Instructions for Oral exam were sent on 20-Dec-2020 via the "sscourse2" email distribution list. Please thoroughly read the instructions and attempt.</li>
+                                    <li>From 21-Dec-2020, emails are being sent to "sscourse5" distribution list after removing IDs who requested unsubscriptions till 18-Dec. For registered participants, the change should ideally be seamless, but since it's
+                                        a big list, sometimes your email system may mark it as spam or social or promotion kind of email.</li>
+                                    <li>If any expected emails are missing, please check your inbox as well as spam, social, promotion folders thoroughly before sending an email to us (Sanskrit Club) about something missing. Also, if you find what you were
+                                        looking for after reaching out to us, then please inform us. Deadline for "missing Course-3 certificate" emails is over.
+                                    </li>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
                             <td><button style="cursor: default; box-shadow: none;">Subhashitam Sanskritam Course-4 exams were held between 19th and 22nd of November, 2020.</button></td>
                         </tr>
                         <tr>
@@ -187,11 +207,27 @@
                             <td><button style="cursor: default; box-shadow: none;">'Winter Internships Programme' and 'TARGET संस्कृतम् Hackathon' announced.</button></td>
                         </tr>
                     </table>
+                    <script>
+                        var impo = document.getElementById('imp')
+                        impo.addEventListener("click", function() {
+                            /* Toggle between adding and removing the "active" class,
+                            to highlight the button that controls the panel */
+                            this.classList.toggle("active");
+
+                            /* Toggle between hiding and showing the active panel */
+                            var panel = this.closest('a').nextElementSibling;
+
+                            if (panel.style.display === "block") {
+                                panel.style.display = "none";
+                            } else {
+                                panel.style.display = "block";
+                            }
+                        });
+                    </script>
                 </div>
             </div>
         </div>
     </div>
-
 
     <div class="wrapper style2" style="padding-bottom: 2vw;">
         <div style="display: flex; height: fit-content;width: 93%;margin: auto; justify-content: center;">
@@ -225,10 +261,14 @@
                 <p><img class='email2' src="https://dl.dropbox.com/s/hg8v0xsxmud2rde/email.png?dl=0" style="width:40px;height:40px;" alt="#"> sanskritclub@iitr.ac.in</p>
 
                 <tr>
-                    <td><a href='https://www.facebook.com/sanskritiitr/' target="_blank"><img class='email' src="https://dl.dropbox.com/s/4379g2tpwft2hwh/fblogo.png?dl=0" style="width:40px;height:40px;" alt="#"></a>
-                    <td><a href="https://twitter.com/Sanskrit_Club?s=08" target="_blank"><img class='email' src="https://dl.dropbox.com/s/exflxj0ha5xusfw/twitter.png?dl=0" style="width:40px;height:40px;" alt="#"></a>
-                    <td><a href="https://www.instagram.com/iit.roorkee/" target="_blank"><img class='email' src="https://dl.dropbox.com/s/cf54qq1hxbf00fv/insta.png?dl=0" style="width:40px;height:40px;" alt="#"></a>
-                    <td><a href="https://www.youtube.com/user/sanskritiitr" target="_blank"><img class='email' src="https://dl.dropbox.com/s/0b6m69mq7rqnn1m/youtube.png?dl=0" style="width:40px;height:40px;" alt="#"></a>
+                    <td>
+                        <a href='https://www.facebook.com/sanskritiitr/' target="_blank"><img class='email' src="https://dl.dropbox.com/s/4379g2tpwft2hwh/fblogo.png?dl=0" style="width:40px;height:40px;" alt="#"></a>
+                        <td>
+                            <a href="https://twitter.com/Sanskrit_Club?s=08" target="_blank"><img class='email' src="https://dl.dropbox.com/s/exflxj0ha5xusfw/twitter.png?dl=0" style="width:40px;height:40px;" alt="#"></a>
+                            <td>
+                                <a href="https://www.instagram.com/iit.roorkee/" target="_blank"><img class='email' src="https://dl.dropbox.com/s/cf54qq1hxbf00fv/insta.png?dl=0" style="width:40px;height:40px;" alt="#"></a>
+                                <td>
+                                    <a href="https://www.youtube.com/user/sanskritiitr" target="_blank"><img class='email' src="https://dl.dropbox.com/s/0b6m69mq7rqnn1m/youtube.png?dl=0" style="width:40px;height:40px;" alt="#"></a>
                 </tr>
 
             </div><br>
